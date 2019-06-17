@@ -1,0 +1,518 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style: none;
+	float: left;
+}
+.hread{
+	width: 100%;
+	height: 100px;
+	background-color: #ffff;
+	/*border: 1px solid red;*/
+	margin: auto;
+}
+.hread1{
+	width:1200px;
+	height: 70px;
+	/*border: 1px solid blue;*/
+	margin: auto;
+}
+.hread1>ul>li{
+	float: left;
+	margin-left: 50px;
+	font-size: 16px;
+	line-height: 70px;
+}
+.hread1-1{
+	width:160px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left:-30px ;
+
+}
+.hread1>ul>li:nth-child(6){
+	margin-left: 550px;
+}
+.hread1>ul>li:nth-child(n+7){
+	margin-left: 10px;
+}
+/*.hread2{
+	width:100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	background-color:gainsboro;
+}
+.hread2>p{
+	padding-left: 700px;
+}*/
+.hread2{
+	width: 100%;
+	background-color: #d8d8d8;
+	height: 40px;
+}
+.hread2>p{
+	width: 1200px;
+	height:40px;
+	font-size: 16px;
+	color: gray;
+	margin-left: -160px;
+	float: left;
+	line-height: 40px;
+}
+
+.main{
+	width: 100%;
+}
+.main-top{
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/images/4关于欧林_02.png);
+	background-size: 100% 100%;
+}
+.jianjie{
+	width: 100%;
+	height: 400px;
+}
+.jianjie>ul{
+	width: 60%;
+	height: 60px;
+	margin-left: 20%;
+	background: rgb(220,220,220);
+}
+.jianjie>ul>li{
+	width: 20%;
+	height:60px;
+	text-align: center;
+	color: rgba(7,127,68);
+}
+.jianjie>ul>li>p:nth-child(1){
+	line-height: 30px;
+}
+.jianjie>.one{
+	width: 60%;
+	height:300px;
+	margin-left: 20%;
+	display: flex;
+}
+.jianjie>.one>.left{
+	width: 180px;
+	height: 60px;
+}
+.jianjie>.one>.right{
+	width:730px;
+	height:300px;
+	color: rgb(183,183,183);
+}
+.jianjie>.one>.right>p{
+	margin-top: 5px;
+}
+
+.licheng{
+	width: 100%;
+	height: 700px;
+}
+.licheng>ul{
+	width: 60%;
+	height: 60px;
+	margin-top: -30px;
+	margin-left: 20%;
+	background: rgb(220,220,220);
+}
+.licheng>ul>li{
+	width: 20%;
+	height:60px;
+	text-align: center;
+	color: rgba(7,127,68);
+}
+.licheng>ul>li>p:nth-child(1){
+	line-height: 30px;
+}
+.licheng>.two{
+	width: 60%;
+	height:500px;
+	margin-left: 20%;
+	display: flex;
+}
+.licheng>.two>.left{
+	width: 180px;
+	height: 60px;
+}
+.licheng>.two>.right{
+	width:730px;
+	height:500px;
+	display: flex;
+	color: rgb(183,183,183);
+}
+.licheng>.two>.right>.left{
+	width: 30px;
+	height:500px;
+	position: relative;
+}
+.licheng>.two>.right>.left>ul{
+	width:15px;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left:7px;
+	z-index: 9;
+}
+.licheng>.two>.right>.left>ul>li{
+	width: 15px;
+	height:15px;
+	border-radius: 50%;
+	background: white;
+	margin-top:30px;
+	border: 1px solid black;
+}
+.licheng>.two>.right>.left>div{
+	position: absolute;
+	height: 500px;
+	border: 0.5px solid gray;
+	top: 0;
+	left: 15px;
+}
+.licheng>.two>.right>.right{
+	width:700px;
+	height:500;
+	margin-left: 8px;
+	font-size: 13px;
+}
+
+.zizhi{
+	width: 60%;
+	height:950px;
+	margin-left: 20%;
+	margin-top: -30px;
+}
+.zizhi>ul{
+	width: 100%;
+	height: 60px;
+	background: rgb(220,220,220);
+}
+.zizhi>ul>li{
+	width: 20%;
+	height:60px;
+	text-align: center;
+	color: rgba(7,127,68);
+}
+.zizhi>ul>li>p:nth-child(1){
+	line-height: 30px;
+}
+.zizhi>.three{
+	width: 100%;
+	height:700px;
+	margin-top: 20px;
+	display: flex;
+}
+.zizhi>.three>.left{
+	width: 180px;
+	height: 60px;
+}
+.zizhi>.three>.right{
+	width: 1000px;
+	height:700px;
+}
+.zizhi>.three>.right>.top{
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+.zizhi>.three>.right>.top>div{
+	width: 32%;
+	height: 330px;
+	margin-left: 10px;
+	box-shadow: 0 0 5px gray;
+}
+.zizhi>.three>.right>.top>div>div{
+	width: 100%;
+	height: 300px;
+	background: url(../img/images/4关于欧林_06.png)no-repeat;
+	background-size: 100% 100%;
+}
+.zizhi>.three>.right>.top>div>p{
+	background: rgb(244,244,244);
+	line-height: 30px;
+	color: rgb(114,114,114);
+}
+.zizhi>.three>.right>.bot{
+	width: 100%;
+	height: 300px;
+	margin-top: 60px;
+	display: flex;
+}
+.zizhi>.three>.right>.bot>div{
+	width: 32%;
+	height: 330px;
+	margin-left: 10px;
+	box-shadow: 0 0 5px gray;
+}
+.zizhi>.three>.right>.bot>div>div{
+	width: 100%;
+	height: 300px;
+	background: url(../img/images/4关于欧林_06.png)no-repeat;
+	background-size: 100% 100%;
+}
+.zizhi>.three>.right>.bot>div>p{
+	background: rgb(244,244,244);
+	line-height: 30px;
+	color: rgb(114,114,114);
+}
+.zizhi>.bbo{
+	width:50%;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 47%;
+}
+.zizhi>.bbo>span{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid rgb(153,153,153);
+}
+.quanguo{
+	width: 60%;
+	height: 650px;
+	margin-left: 20%;
+}
+.quanguo>ul{
+	width: 100%;
+	height: 60px;
+	margin-top: -30px;
+	background: rgb(220,220,220);
+}
+.quanguo>ul>li{
+	width: 20%;
+	height:60px;
+	text-align: center;
+	color: rgba(7,127,68);
+}
+.quanguo>ul>li>p:nth-child(1){
+	line-height: 30px;
+}
+.quanguo>.fore{
+	width: 100%;
+	height:550px;
+	margin-top: 20px;
+	display: flex;
+}
+.quanguo>.fore>.left{
+	width: 180px;
+	height: 60px;
+}
+.quanguo>.fore>.right{
+	width: 1000px;
+	height:700px;
+}
+.quanguo>.fore>.right>.top{
+	width: 100%;
+	height: 220px;
+	display: flex;
+}
+.quanguo>.fore>.right>.top>div{
+	width: 32%;
+	height: 220px;
+	margin-left: 10px;
+	box-shadow: 0 0 5px gray;
+}
+.quanguo>.fore>.right>.top>div>div{
+	width: 100%;
+	height: 200px;
+	background: url(../img/images/4关于欧林_10.png)no-repeat;
+	background-size: 100% 100%;
+}
+.quanguo>.fore>.right>.top>div>p{
+	background: rgb(244,244,244);
+	line-height: 30px;
+	color: rgb(114,114,114);
+}
+.quanguo>.fore>.right>.bot{
+	width: 100%;
+	height: 220px;
+	margin-top: 30px;
+	display: flex;
+}
+.quanguo>.fore>.right>.bot>div{
+	width: 32%;
+	height: 220px;
+	margin-left: 10px;
+	box-shadow: 0 0 5px gray;
+}
+.quanguo>.fore>.right>.bot>div>div{
+	width: 100%;
+	height: 200px;
+	background: url(../img/images/4关于欧林_10.png)no-repeat;
+	background-size: 100% 100%;
+}
+.quanguo>.fore>.right>.bot>div>p{
+	background: rgb(244,244,244);
+	line-height: 30px;
+	color: rgb(114,114,114);
+}
+
+.xinwen{
+	width: 60%;
+	height: 350px;
+	margin-left: 20%;
+}
+.xinwen>ul{
+	width: 100%;
+	height: 60px;
+	margin-top: -30px;
+	background: rgb(220,220,220);
+}
+.xinwen>ul>li{
+	width: 20%;
+	height:60px;
+	text-align: center;
+	color: rgba(7,127,68);
+}
+.xinwen>ul>li>p:nth-child(1){
+	line-height: 30px;
+}
+.xinwen>.five{
+	width: 100%;
+	height:550px;
+	margin-top: 20px;
+	display: flex;
+}
+.xinwen>.five>.left{
+	width: 180px;
+	height: 60px;
+}
+.xinwen>.five>.right{
+	width: 1000px;
+	height:700px;
+}
+.xinwen>.five>.right>.top{
+	width: 100%;
+	height: 220px;
+	display: flex;
+}
+.xinwen>.five>.right>.top>div{
+	width: 32%;
+	height: 300px;
+	margin-left: 10px;
+	box-shadow: 0 0 5px gray;
+}
+.xinwen>.five>.right>.top>div>div{
+	width: 100%;
+	height: 200px;
+background: url(../img/images/4关于欧林_10.png)no-repeat;
+	background-size: 100% 100%;
+}
+.xinwen>.five>.right>.top>div>hr{
+	width: 50px;
+	color: #000000;
+	margin-top:5px;
+	margin-left: 5px;
+}
+.xinwen>.five>.right>.top>div>p{
+	margin-left: 5px;
+}
+.xinwen>.bbo{
+	width:50%;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 47%;
+}
+.xinwen>span{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid rgb(153,153,153);
+}
+footer{
+	width: 100%;
+	height:280px;
+	border-top: 1px solid gray;
+	background: rgb(244,244,244);
+	display: flex;
+	margin-top:200px;
+}
+footer>.footer{
+	width: 30%;
+	height:240px;
+	margin-left: 20%;
+	margin-top: 30px;
+}
+footer>.footer>p:nth-child(1){
+	line-height:50px;
+	font-weight: 700;
+	font-size: 16px;
+}
+footer>.footer>p:nth-child(2){
+	line-height: 30px;
+	font-size: 18px;
+	color: rgba(21,131,110);
+	text-decoration: underline;
+}
+footer>.footer>div{
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+	display: flex;
+}
+footer>.footer>div>div:nth-child(1){
+	width:20px;
+	height: 100%;
+}
+footer>.footer>div>div:nth-child(1)>ul{
+	width: 100%;
+	height: 100%;
+}
+footer>.footer>div>div:nth-child(1)>ul>li{
+	width: 100%;
+	height:25%;
+}
+footer>.footer>div>div:nth-child(1)>ul>li>img{
+	width:15px;
+	height:15px;
+}
+footer>.footer>div>div:nth-child(2){
+	width:400px;
+	height: 100%;
+}
+footer>.footer>div>div:nth-child(2)>ul{
+	width: 100%;
+	height: 100%;
+}
+footer>.footer>div>div:nth-child(2)>ul>li{
+	width: 100%;
+	height:25%;
+}
+.footer1-right{
+	width:228px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-right: 150px;
+	margin-top: 130px;
+}
+.footer1-right>img{
+	margin-left:30px;
+}
+.footer1{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: gray;
+}
+.footer1>div{
+	width: 80%;
+	height: 60px;
+	margin-left: 20%;
+	color: white;
+	font-size: 13px;
+	cursor: pointer;
+}
